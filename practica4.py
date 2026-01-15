@@ -8,8 +8,6 @@ numeros = []
 for i in range(20):
     num = int(input(f"Ingrese el número {i + 1}: "))
     numeros.append(num)
-
-
 print("\nLista original:")
 print(numeros[:])
 
